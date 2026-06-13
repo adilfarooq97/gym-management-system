@@ -1,10 +1,9 @@
 const express = require("express");
-
 const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Gym API Running");
+  res.send("Gym API is  Running");
 });
 
 app.listen(3000, () => {
